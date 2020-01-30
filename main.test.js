@@ -1,9 +1,38 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+let greeting = 'Hello';
+let sum = 0;
+let prod = 0;
 
+function greet (name) {
+  greeting = 'Hello ' + name;
 
+}
 
+function sumOfTwo (numOneSum, numTwoSum) {
+  return sum = numOneSum + numTwoSum;
+}
+
+function multiply (numOneM, numTwoM, numThreeM) {
+  return prod = numOneM * numTwoM * numThreeM;
+}
+
+function sayHi (yourName) {
+  return 'Hello ' + yourName + '!';
+}
+
+function returnWhatISay (sentence) {
+  return sentence;
+}
+
+function divide (numOneD, numTwoD) {
+  return numOneD / numTwoD;
+}
+
+function remainder (numOneR, numTwoR) {
+  return numOneR % numTwoR;
+}
 
 
 /*********************************************************************************************************************
